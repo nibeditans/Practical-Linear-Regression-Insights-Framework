@@ -11,6 +11,7 @@ We’ll explore:
 * Multiple Regression (2 predictors)
 * Multiple Regression (4 predictors)
 * Manual Beta Coefficient Computation (to see what’s exactly happening behind the scenes)
+* Scikit-learn Linear Regression
 
 I'm gonna explain everything in a way you’d be able to understand each concepts intuitively, even if you're new to regression.
 
