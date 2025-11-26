@@ -26,10 +26,7 @@ I told you not to worry about jargon. So here’s a quick glossary of terms we�
 
 
 I also told not to memorize formulas. So, let me show you two important formulas we’ll use, 😂 just to get familiar
-1. **Simple Linear Regression Equation:**
-$$
-    \text{Y} = \beta_0 + \beta_1 \times \text{ε}
-$$
+1. **Simple Linear Regression Equation:** `Y = β₀ + β₁ × ε`
 Where,
 - Y: Response variable
 - X: Predictor variable
@@ -37,10 +34,7 @@ Where,
 - β₁: Slope (beta coefficient)
 - ε: Error term (captures variability not explained by the model)
 
-2. **Multiple Linear Regression Equation:**
-$$
-    \text{Y} = \beta_0 + \beta_1 \times \text{X}_1 + \beta_2 \times \text{X}_2 + ... + \beta_n \times \text{X}_n + \epsilon
-$$
+2. **Multiple Linear Regression Equation:** `Y = β₀ + β₁ × X₁ + β₂ × X₂ + ... + βₙ × Xₙ + ε`
 Where,
 - `Y`: Response variable
 - `X₁, X₂, ..., Xₙ`: Predictor variables
@@ -178,7 +172,7 @@ I have tried to explain in plain language, with clarity prioritized over complex
 * **Matplotlib/Seaborn** for visualization
 * **Scikit-learn**
 
-Everything is written in Jupyter Notebook for interactivity and explanation-friendly formatting. Okay?😉
+Everything is written in Jupyter Notebooks for interactivity and explanation-friendly formatting. Okay?😉
 
 This project isn’t a huge end-to-end ML pipeline, but it definitely covers some of the most important concepts in Data Science with depth, simplicity, and intuition.
 
