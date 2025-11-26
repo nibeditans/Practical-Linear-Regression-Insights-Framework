@@ -28,7 +28,7 @@ I told you not to worry about jargon. So here’s a quick glossary of terms we�
 * **`R²` (R-squared):** A statistical measure that represents the proportion of the variance for the response variable explained by the predictor(s) in the model.
 
 
-I also told not to memorize formulas. So, let me show you two important formulas we’ll use, 😂 just to get familiar
+I also told not to memorize formulas. So, let me show you two important formulas we’ll use, 😂 just to get familiar.
 1. **Simple Linear Regression Equation:** `Y = β₀ + β₁ × ε`
 Where,
 - Y: Response variable
