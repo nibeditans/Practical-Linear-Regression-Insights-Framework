@@ -11,7 +11,8 @@ We’ll explore:
 * Multiple Regression (2 predictors)
 * Multiple Regression (4 predictors)
 * Manual Beta Coefficient Computation (to see what’s exactly happening behind the scenes)
-* Scikit-learn Linear Regression
+* Scikit-learn implementation
+* SciPy & NumPy implementation
 
 I'm gonna explain everything in a way you’d be able to understand each concepts intuitively, even if you're new to regression.
 
@@ -60,6 +61,7 @@ Where,
 ├── 03_mlr_4_predictors.ipynb
 ├── 04_manual_beta_computation.ipynb
 ├── 05_sklearn_lr.ipynb
+├── 06_scipy_numpy_lr.ipynb
 └── README.md
 ```
 
@@ -82,7 +84,6 @@ Example used:
 **Age → Systolic Blood Pressure (SBP)**
 Because in real life, SBP usually increases with age, a relatable pattern.
 
-----
 
 ## 2. Multiple Regression (2 Predictors)
 
@@ -100,7 +101,6 @@ Concepts covered:
 
 I have kept explanations approachable in this notebook.
 
-----
 
 ## 3. Multiple Regression (4 Predictors)
 
@@ -118,7 +118,6 @@ This notebook helps you understand:
 
 Still, I have tried to make it friendly, clear, and practical enough.😉
 
-----
 
 ## 4. Manual Beta Computation
 
@@ -137,7 +136,6 @@ Everything is step-by-step, with explanations at each stage.
 
 This is actually great for strengthening intuition.
 
-----
 
 ## 5. Scikit-learn Linear Regression
 
@@ -150,6 +148,25 @@ We keep things simple and focus on:
 - comparing results with our previous models
 
 This notebook shows the same concept from a more practical ML angle, giving our project multiple approaches instead of just one.
+
+
+## 6. SciPy x NumPy Linear Regression
+
+In this notebook we implement regression using SciPy and NumPy, focusing on the mathematical underpinnings. While earlier notebooks focused on StatsModels and Scikit-learn, here we explore the fast, scientific-computing style approach.
+
+What’s inside?
+* Simple Linear Regression using `scipy.stats.linregress`
+* Multiple Linear Regression using `np.linalg.lstsq`
+* Manual β-coefficient extraction using the least-squares equation
+
+    $$
+    \beta = (X^\top X)^{-1} X^\top y
+    $$
+
+* Lightweight prediction workflow
+* Comparison with StatsModels and Scikit-learn
+
+This notebook is perfect for those who want to see regression from a more mathematical and computational perspective, while still being easy to follow. Again, I have prioritized clarity and intuition over complexity.
 
 ----
 
@@ -174,6 +191,7 @@ I have tried to explain in plain language, with clarity prioritized over complex
 * **Statsmodels**
 * **Matplotlib/Seaborn** for visualization
 * **Scikit-learn**
+* **SciPy**
 
 Everything is written in Jupyter Notebooks for interactivity and explanation-friendly formatting. Okay?😉
 
@@ -181,6 +199,6 @@ This project isn’t a huge end-to-end ML pipeline, but it definitely covers som
 
 Feel free to fork, clone, modify, or build on top of it. Learning grows best through experimentation. 🌱
 
-For more interesting Projects, you can check out my complete [Data Science & Analytics Projects Collection](https://github.com/nibeditans/A-Few-Data-Analytics-Projects).
+For more interesting Projects, you can check out my complete [Data Science & Analytics Projects Collection](https://github.com/nibeditans/Data-Projects).
 
 ----
