@@ -170,6 +170,13 @@ This notebook is perfect for those who want to see regression from a more mathem
 
 ----
 
+Explore the detailed case studies that document the analysis, methodology, and outcomes of this project:
+
+- Case Study 1: [00_LR.md](https://github.com/nibeditans/Data-Projects/blob/main/Case%20Studies/Project-Based/00_LR.md)
+- Case Study 2: [01_LR.md](https://github.com/nibeditans/Data-Projects/blob/main/Case%20Studies/Project-Based/01_LR.md)
+- Case Study 3: [02_LR.md](https://github.com/nibeditans/Data-Projects/blob/main/Case%20Studies/Project-Based/02_LR.md)
+
+
 ## What to Learn from this Project?
 * How regression models find relationships?
 * How to interpret coefficients logically?
@@ -180,8 +187,6 @@ This notebook is perfect for those who want to see regression from a more mathem
 * How to compute `β`s manually (the raw Math intuition)?
 
 I have tried to explain in plain language, with clarity prioritized over complexity.
-
-----
 
 ## Tech Stack
 
